@@ -1,0 +1,241 @@
+@charset "UTF-8";
+section {
+  padding: 0 60px;
+}
+@media screen and (max-width: 680px) {
+  section {
+    padding: 0 20px;
+  }
+}
+.contact {
+  margin-bottom: 60px;
+}
+.contact ul {
+  display: flex;
+  font-size: 1.6rem;
+}
+@media screen and (max-width: 680px) {
+  .contact ul {
+    display: block;
+  }
+}
+@media screen and (max-width: 680px) {
+  .contact ul img {
+    width: 100%;
+    margin-bottom: 60px;
+  }
+}
+.contact .c-section-1 {
+  padding: 15px;
+  margin: 0 0 15px 10px;
+  border: solid 3px #04bcaa;
+  border-radius: 10px;
+}
+@media screen and (max-width: 680px) {
+  .contact .c-section-1 {
+    margin: 0 0 60px 0;
+  }
+}
+.contact .c-section-1 p {
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 680px) {
+  .contact .c-section-1 p {
+    margin-bottom: 40px;
+  }
+}
+.contact .c-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+  margin: 15px 0 15px 10px;
+  border: solid 3px #04bcaa;
+  border-radius: 10px;
+}
+@media screen and (max-width: 680px) {
+  .contact .c-section {
+    display: block;
+    padding: 15px 15px 30px 15px;
+    margin: 0 0 60px 0;
+  }
+}
+.contact .book-btn {
+  text-align: right;
+  margin-bottom: 15px;
+}
+.c-section-title {
+  font-size: 2rem;
+  font-family: "Zen Maru Gothic", sans-serif;
+  font-weight: bold;
+  margin: 15px 0;
+  letter-spacing: 3px;
+}
+@media screen and (max-width: 680px) {
+  .c-section-title {
+    margin: 0 0 40px 0;
+    letter-spacing: 3px;
+  }
+}
+.contact ul li a {
+  background-color: #04bcaa;
+  color: #fff;
+  font-weight: bold;
+  padding: 15px 80px;
+  border-radius: 10px;
+}
+.contact .c-section .book-btn-right {
+  margin-top: 17px;
+  text-align: right;
+}
+.contact ul li a:hover {
+  background-color: #f0bf4c;
+}
+/* ＊ */
+/* フォーム */
+/* ＊ */
+form {
+  padding: 40px;
+  border: solid 3px #04bcaa;
+  border-radius: 10px;
+  font-size: 1.6rem;
+  margin-bottom: 100px;
+}
+@media screen and (max-width: 680px) {
+  form {
+    padding: 20px 20px 30px 20px;
+  }
+}
+form span {
+  font-size: 1.4rem;
+  letter-spacing: -1.5px;
+}
+/* フォームタイトル */
+form .c-section-title {
+  margin: 0 0 65px 0;
+}
+@media screen and (max-width: 680px) {
+  form .c-section-title {
+    margin: 0 0 25px 0;
+  }
+}
+/* フォームの区切り線 */
+form .line {
+  background-size: 20px 0.5px;
+  background-image: linear-gradient(to right, #04bcaa 9px, transparent 9px);
+  background-repeat: repeat-x;
+  background-position: left bottom;
+  padding-bottom: 5px;
+  margin: 30px 0;
+}
+@media screen and (max-width: 680px) {
+  form .line {
+    margin: 20px 0;
+  }
+}
+/* フォーム・radioボタン */
+form .radio-btn input {
+  margin-right: 5px;
+}
+form .radio-btn label {
+  margin-right: 30px;
+}
+form .form-flex {
+  display: flex;
+}
+@media screen and (max-width: 680px) {
+  form .form-flex {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  form .radio-btn input {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 680px) {
+  form ul input {
+    margin-bottom: 10px;
+  }
+}
+form .name p {
+  margin-right: 130px;
+}
+form .name input {
+  width: 290px;
+}
+form .mail p {
+  margin-right: 68px;
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 680px) {
+  form .mail p {
+    margin-bottom: 5px;
+  }
+}
+form .mail2 p {
+  margin-right: 20px;
+}
+form .mail input,
+form .mail2 input {
+  width: 560px;
+}
+@media screen and (max-width: 680px) {
+  form .mail input,
+  form .mail2 input {
+    width: 100%;
+  }
+}
+form .tel p {
+  margin-right: 115px;
+}
+form .message p {
+  margin-right: 150px;
+}
+form .message textarea {
+  width: 560px;
+  height: 270px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+@media screen and (max-width: 680px) {
+  form .message textarea {
+    width: 100%;
+  }
+}
+form .message {
+  margin-bottom: 35px;
+}
+form input {
+  border-radius: 5px;
+  height: 20px;
+  margin-right: 25px;
+}
+@media screen and (max-width: 680px) {
+  form p {
+    margin-bottom: 5px;
+  }
+}
+form .btn {
+  text-align: right;
+}
+form .btn a {
+  background-color: #04bcaa;
+  color: #fff;
+  font-size: 2rem;
+  padding: 8px 80px;
+  height: 50px;
+  border-radius: 10px;
+  font-family: "Zen Maru Gothic", sans-serif;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+@media screen and (max-width: 680px) {
+  form .btn a {
+    padding: 8px 70px;
+  }
+}
+form .btn a:hover {
+  background-color: #f0bf4c;
+}
