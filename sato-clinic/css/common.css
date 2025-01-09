@@ -222,7 +222,7 @@ footer .sitemap {
 @media screen and (max-width: 680px) {
   footer .sitemap {
     flex-wrap: wrap;
-    gap: 5px;
+    row-gap: 15px;
     padding: 20px 10px;
     margin-bottom: 35px;
   }
@@ -235,13 +235,12 @@ footer .sitemap li {
 @media screen and (max-width: 680px) {
   footer .sitemap li {
     font-size: 1.4rem;
-    letter-spacing: 0.005em;
     padding: 0 2px;
   }
 }
 @media screen and (max-width: 680px) {
   footer .sitemap li a {
-    letter-spacing: 0.01px;
+    letter-spacing: 1px;
   }
 }
 footer .sitemap li + li {
