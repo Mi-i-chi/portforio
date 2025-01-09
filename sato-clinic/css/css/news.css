@@ -1,0 +1,93 @@
+@charset "UTF-8";
+/* ＊ */
+/* ご連絡 */
+/* ＊ */
+.news {
+  padding: 0 60px;
+}
+@media screen and (max-width: 680px) {
+  .news {
+    padding: 0 20px;
+  }
+}
+.news ul {
+  padding: 0 40px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+@media screen and (max-width: 680px) {
+  .news ul {
+    padding: 0;
+  }
+}
+.news img {
+  width: 464px;
+  margin-bottom: 60px;
+}
+@media screen and (max-width: 680px) {
+  .news img {
+    width: 100%;
+    margin-bottom: 60px;
+  }
+}
+.news li {
+  font-size: 1.6rem;
+  text-align: left;
+  padding-left: 5px;
+  border-left: solid 10px #5bd1d7;
+}
+@media screen and (max-width: 680px) {
+  .news li {
+    margin-bottom: 10px;
+    border-left: none;
+    padding-left: 0;
+  }
+}
+.news ul li .news-title {
+  font-size: 2rem;
+  font-family: "Zen Maru Gothic", sans-serif;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.news ul li p,
+.news .news-list a {
+  font-family: "ヒラギノ丸ゴ Pro W4", "ヒラギノ丸ゴ Pro",
+    "Hiragino Maru Gothic Pro", "ヒラギノ角ゴ Pro W3",
+    "Hiragino Kaku Gothic Pro", "HG丸ｺﾞｼｯｸM-PRO", "HGMaruGothicMPRO";
+  line-height: 1.8;
+}
+@media screen and (max-width: 680px) {
+  .news ul li p {
+    border-left: solid 10px #5bd1d7;
+    padding-left: 5px;
+  }
+}
+.news ul li span {
+  font-size: 1.6rem;
+  font-weight: medium;
+}
+.news .news-list {
+  font-size: 1.4rem;
+  text-align: right;
+  margin-bottom: 60px;
+}
+.news .news-list span {
+  color: #5bd1d7;
+  margin-left: 20px;
+}
+@media screen and (max-width: 680px) {
+  .news .news-list span {
+    margin-left: 5px;
+  }
+}
+.news .date {
+  margin-bottom: 10px;
+}
+/* ご連絡のホバー */
+.news .news-title-hover:hover {
+  color: #f7931e;
+}
+/* ご連絡一覧のホバー */
+.news .news-list a:hover {
+  color: #f7931e;
+}

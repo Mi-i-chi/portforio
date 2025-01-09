@@ -1,0 +1,176 @@
+@charset "UTF-8";
+/* ＊ */
+/* 診察内容トップ */
+/* ＊ */
+.medical-service .ms-top {
+  display: flex;
+  padding: 0 100px;
+  margin-bottom: 100px;
+}
+@media screen and (max-width: 680px) {
+  .medical-service .ms-top {
+    display: block;
+    padding: 0 20px;
+    margin-bottom: 100px;
+  }
+}
+@media screen and (max-width: 680px) {
+  .ms-top li {
+    margin-bottom: 20px;
+  }
+}
+.ms-top .ms-top-text p {
+  padding: 5px 0px 5px 15px;
+  border-left: solid 10px #5bd1d7;
+  margin-left: 90px;
+  font-size: 1.6rem;
+  line-height: 2;
+  letter-spacing: -0.5px;
+}
+@media screen and (max-width: 680px) {
+  .ms-top .ms-top-text p {
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 680px) {
+  .link {
+    left: 0;
+  }
+}
+/* ＊ */
+/* 診察内容の表組み */
+/* ＊ */
+.medical-service .ms-container {
+  padding: 0 100px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 680px) {
+  .medical-service .ms-container {
+    padding: 0 20px;
+    display: block;
+  }
+}
+.medical-service .ms-container .ms-list {
+  position: relative;
+  padding: 20px;
+  border: solid 3px #04bcaa;
+  margin-bottom: 100px;
+  border-radius: 0 5px 5px 5px;
+}
+.medical-service .ms-container .ms-list .ms-list-title {
+  position: absolute;
+  display: block;
+  top: -47px;
+  left: -3px;
+  padding: 10px;
+  height: 25px;
+  line-height: 25px;
+  font-size: 2rem;
+  background: #04bcaa;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 5px 5px 0 0;
+}
+.medical-service .ms-container .ms-list .p-30 {
+  padding: 10px 30px;
+}
+.medical-service .ms-container .ms-list .p-50 {
+  padding: 10px 50px;
+}
+.medical-service .ms-container .ms-list img {
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 680px) {
+  .medical-service .ms-container .ms-list img {
+    width: 100%;
+  }
+}
+.medical-service .ms-container .ms-list p {
+  font-size: 1.6rem;
+  width: 300px;
+  line-height: 1.8;
+}
+@media screen and (max-width: 680px) {
+  .medical-service .ms-container .ms-list p {
+    width: 100%;
+  }
+}
+/* ＊ */
+/* スタッフ紹介 */
+/* ＊ */
+.staff {
+  padding: 0 60px;
+  font-size: 1.6rem;
+}
+@media screen and (max-width: 680px) {
+  .staff {
+    padding: 0 20px;
+  }
+}
+.staff .staff-text {
+  padding: 0 40px;
+  line-height: 1.8;
+  margin-bottom: 60px;
+}
+@media screen and (max-width: 680px) {
+  .staff .staff-text {
+    padding: 0;
+  }
+}
+.staff ul {
+  display: flex;
+  margin-bottom: 100px;
+}
+@media screen and (max-width: 680px) {
+  .staff ul {
+    display: block;
+    margin-bottom: 100px;
+  }
+}
+.staff ul .staff-photo {
+  text-align: center;
+}
+@media screen and (max-width: 680px) {
+  .staff ul .staff-photo {
+    text-align: center;
+  }
+}
+.staff ul .staff-name {
+  border-bottom: 3px solid #f0bf4c;
+  display: inline-block;
+  font-family: "Zen Maru Gothic", sans-serif;
+  font-weight: 500;
+  margin-top: 5px;
+}
+@media screen and (max-width: 680px) {
+  .staff ul .staff-name {
+    margin-bottom: 60px;
+  }
+}
+.staff .staff-introduction {
+  padding-left: 15px;
+  border-left: solid 10px #5bd1d7;
+  margin-left: 90px;
+  min-width: 534px;
+}
+@media screen and (max-width: 680px) {
+  .staff .staff-introduction {
+    padding-left: 15px;
+    border-left: solid 10px #5bd1d7;
+    margin-left: 0;
+    min-width: 330px;
+  }
+}
+.staff .staff-introduction div {
+  color: #04bcaa;
+  margin-bottom: 10px;
+}
+.staff .staff-introduction p {
+  margin-bottom: 35px;
+  line-height: 1.2;
+}
+.staff .staff-introduction p:nth-of-type(3) {
+  margin-bottom: 0;
+}
