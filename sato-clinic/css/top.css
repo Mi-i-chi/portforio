@@ -130,7 +130,7 @@
 @media screen and (max-width: 680px) {
   .column .column-list {
     margin-bottom: 150px;
-    padding-right: 40px;
+    padding-right: 20px;
   }
 }
 .column .column-list span {
