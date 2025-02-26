@@ -408,8 +408,9 @@ h2 {
 }
 @media screen and (max-width: 680px) {
   .Organic-img {
+    width: 150px
     margin-left: 15px;
-    margin-top: 170px;
+    margin-top: 150px;
     align-self: flex-start;
   }
 }
