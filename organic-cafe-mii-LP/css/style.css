@@ -453,9 +453,9 @@ h2 {
 }
 @media screen and (max-width: 680px) {
   .Child-img {
-    width: 100px;
+    width: 150px;
     margin-left: 5px;
-    margin-top: 300px;
+    margin-top: 250px;
     align-self: flex-start;
   }
 }
@@ -518,8 +518,8 @@ h2 {
 }
 @media screen and (max-width: 680px) {
   .O-coffee-img {
-    width: 100px;
-    margin: 280px 10px 0 15px;
+    width: 150px;
+    margin: 250px 10px 0 15px;
     align-self: flex-start;
   }
 }
